@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/purchase"
+            android:icon="@drawable/ic_purchase_black_24dp"
+            android:title="Purchase" />
+
+        <item
+            android:id="@+id/sale"
+            android:icon="@drawable/ic_sale_black_24dp"
+            android:title="Sale" />
+
+        <item
+            android:id="@+id/stock"
+            android:icon="@drawable/ic_stock_black_24dp"
+            android:title="Stock" />
+
+        <item
+            android:id="@+id/customer_details"
+            android:icon="@drawable/ic_customer_details_black_24dp"
+            android:title="Customer Details" />
+
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_reports_black_24dp"
+            android:title="Reports" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout_black_24dp"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+</menu>
